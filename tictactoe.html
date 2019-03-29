@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <link rel="stylesheet" href="tttcss.css">
+      <script src="tic2.js"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>tic tac toe</title>
+    </head>
+    <body>
+      <h1 class="tag">Tic Tac Toe</h1>
+      <h2 class="own">Presented By:- Nikhil</h2>
+      <button onclick="restart();">Restart Game</button>
+      <div class= "display" style="width:312px;margin-top:80px;">
+        <div class="row1">
+          <img id="0" onclick="f0();" src="blank.jpg" alt="1" width="100" height="100">
+          
+          <img id="1" onclick="f1();" src="blank.jpg" alt="2" width="100" height="100">
+         
+          <img id="2" onclick="f2();" src="blank.jpg" alt="3" width="100" height="100">
+          
+        </div>
+        <div class="row2" style="margin-top:-3px;">
+          <img id="3" onclick="f3();" src="blank.jpg" alt="1" width="100" height="100">
+          <img id="4" onclick="f4();" src="blank.jpg" alt="2" width="100" height="100">
+          <img id="5" onclick="f5();" src="blank.jpg" alt="3" width="100" height="100">
+        </div>
+        <div class="row3" style="margin-top:-3px;">
+          <img id="6" onclick="f6();" src="blank.jpg" alt="1" width="100" height="100">
+          <img id="7" onclick="f7();" src="blank.jpg" alt="2" width="100" height="100">
+          <img id="8" onclick="f8();" src="blank.jpg" alt="3" width="100" height="100">
+        </div>
+      </div>
+      <h2 id="result"></h2>
+      <script src="tttjs.js"></script>
+    </body>
+  </html>
